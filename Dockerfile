@@ -1,4 +1,4 @@
-FROM coffeejava/galera-common:1.0
+FROM coffeejava/galera-common:latest
 MAINTAINER coffee_java <coffee_java@126.com>
 
 RUN apt-get install -y galera-arbitrator-3
